@@ -1,0 +1,253 @@
+.custom-navbar {
+    background-color: #1F7D53;
+  }
+  .custom-navbar .nav-link,
+  .custom-navbar .navbar-brand,
+  .custom-navbar .dropdown-item {
+    color: #000000 !important;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .custom-navbar .nav-link:hover,
+  .custom-navbar .dropdown-item:hover {
+    color: #18230F !important;
+  }
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #6c757d;
+  }
+  .search-input {
+    padding-left: 2rem;
+  }
+
+  .postercontainer {
+  width: 100%;
+  min-height: 100vh;
+  background: url('assets/organicfood.webp') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 5vw;
+  color: white;
+  text-align: center;
+}
+
+
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4vw;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 2vw;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #1F7D53;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #14593b;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: rgba(255,255,255,0.15);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.5vw;
+  color:#ffffff;
+  font-weight: 600;
+}
+
+.downloadcontainer{
+  height: 500px;
+  width:98%;
+  background-color:#e7b042;
+  background-size: cover;
+  margin-left: 20px;
+  border-radius: 20px;
+  
+}
+
+.downloadcontainerleft h1{
+  font-size: 28px;
+  margin-top: 170px;
+  margin-left: 340px;
+}
+
+.downloadcontainerleft h5{
+  margin-left: 340px;
+}
+
+.containerbutton{
+  margin-left: 340px;
+  margin-top: 25px;
+ 
+}
+
+.iconcontainer{
+  height: 46px;
+  width:50px;
+  background-color: #ffffff;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid goldenrod;
+}
+
+.items-con{
+  margin-left: 110px;
+}
+
+.items-con h1{
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.items-con p{
+  font-weight: 600;
+  margin-left: 5px;
+  color: #6c757d;
+}
+
+
+.subscribe-container {
+  display: flex;
+  width: fit-content;
+  font-family: Arial, sans-serif;
+}
+
+.subscribe-container input[type="email"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #f6f6f6;
+  color: #333;
+  
+}
+
+.subscribe-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #1c1c1c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-right: 50px;
+}
+
+.subscribe-container button:hover {
+  background-color: #333;
+}
+
+.imgcategory{
+  border-radius: 50%;
+}
+
+
+
+.bestcontainer{
+  height:350px;
+  width:270px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  /* border: 1px solid orangered; */
+  box-shadow: 0px 0px  6px red;
+}
+
+.bestcontainer img{
+  height: 200px;
+}
+
+.adcontainer{
+  background-image: url('/assets/vege1.jpeg');
+  height: 500px;
+  width:800px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.sidecontainer{
+  background-image: url('assets/vege3.jpeg');
+  height: 250px;
+  width: 600px;
+  background-size: cover;
+  margin-top: 60px; 
+  margin-left: 20px;
+}
+.sidecontainer1{
+  background-image: url('assets/vege2.jpeg');
+  height: 250px;
+  width: 600px;
+  background-size: cover;
+  margin-top: 6px;
+  margin-left: 20px;
+}
+
+.signupcontainer{
+  background-image: url('/assets/nature.webp');
+  height: 320px;
+  width:96%;
+  background-size: cover;
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.sign{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.input{
+  height: 40px;
+  width: 400px;
+  font-size: 16px;
+}
+
